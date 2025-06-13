@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background: color #f6f6f6;;
+  background-color: #86c019;
 }
 
 .container {
@@ -18,7 +18,7 @@ body {
   border-radius: 20px;
   width: 100%;
   max-width: 400px;
-  height: 450px;
+  
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   border: 1px solid #ddd;
 }
@@ -103,7 +103,7 @@ input[type="password"] {
 .links {
   margin-top: 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 10px;
 }
 
