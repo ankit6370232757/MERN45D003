@@ -1,0 +1,69 @@
+#para1{
+    color: red;
+}
+* {
+    background-color:antiquewhite;
+}
+
+
+
+
+
+#box {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-image: url(https://t4.ftcdn.net/jpg/02/66/72/41/360_F_266724172_Iy8gdKgMa7XmrhYYxLCxyhx6J7070Pr8.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+#Box-model{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 20px 30px 30px 30px;
+}
+#Box-model:hover{
+    background-color:yellow ;
+}
+#Box-model:active{
+    background-color: aquamarine;
+}
+input{
+    background-color: black;
+}
+input:focus{
+    background-color: blanchedalmond;
+}
+ ul li:first-child{
+    background-color: blue;
+}
+ul li:last-child{
+    background-color: aqua;
+}
+h2{
+    background-color: aquamarine;
+    display: inline;
+    width: 300px;
+}
+strong{
+    background-color: blueviolet;
+    display: block;
+    width: 300px;
+}
+
+.flex-container{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+body{
+    background-color: white;
+}

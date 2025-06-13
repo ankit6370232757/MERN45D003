@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #para1{
+            background-color: aquamarine;
+        }
+    </style>
 </head>
-<style>
-    p
-</style>
+<link rel="stylesheet" href="design.css">
 <body>
     <!-- ways to add css files in html page -->
      <!-- inline css  has more priorities than other-->
@@ -16,12 +19,41 @@
         <!-- emport statement -->
        <p style="background-color: aqua;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, velit!</p> 
        <p id="para1">this is my para 1</p>
+       <p id="para2">this is para 2</p>
         <!--selector in css  -->
         <!-- 
         1.simple selector
         a)id selector
         b)class  name selector
-        c)tag name selector -->
+        c)tag name selector 
+        d)group name selector
+        e) universal selector-->
+
+        <div id="box">
+
+        </div>
+        <div id="Box-model">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, magnam!</p>
+
+        </div>
+        <input type="text">
+        <ul>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+            <li>item4</li>
+            <li>item5</li>
+        </ul>
+        <h2>Heading 2</h2>
+        <br>
+        <strong>Lorem ipsum dolor sit amet.</strong>
+        <div class="flex-container">
+        <div class="class">1</div>
+        <div class="class">2</div>
+        <div class="class">3</div>
+        <div class="class">4</div>
+        <div class="class">5</div>
+        </div>
 
 </body>
 </html>
