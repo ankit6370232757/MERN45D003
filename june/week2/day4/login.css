@@ -10,7 +10,6 @@ body {
 }
 
 .login-box {
-    background: linear-gradient(to right, #f7f5f5, #ed8a7c, #e3ef0b);
     padding: 40px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 2);
     text-align: center;
