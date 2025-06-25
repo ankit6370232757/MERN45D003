@@ -1,0 +1,17 @@
+.contend1 {
+    width: 100%;
+}
+
+.box {
+    border: 2px solid black;
+    gap: 10px;
+    height: 400px;
+    width: 300px;
+    column-gap: 10px;
+    display: inline-block;
+    text-decoration: underline;
+    font-weight: 500;
+    color: rgb(23, 147, 147);
+    border-radius: 20px;
+    margin-right: 1rem;
+}

@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "preview",
+			"path": "june/week3/day2/task/ReactThings",
+			"problemMatcher": [],
+			"label": "npm: preview - june/week3/day2/task/ReactThings",
+			"detail": "vite preview"
+		}
+	]
+}

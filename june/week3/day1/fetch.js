@@ -41,3 +41,4 @@ async function fetchMethod() {
 
 }
 fetchMethod()
+// request
