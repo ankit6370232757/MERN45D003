@@ -16,10 +16,10 @@ function Home() {
   return (
     <div>
       <h1 className='bg-red-500'>this is home page</h1>
-      <ul className='flex flex-wrap justify-center gap'></ul>
+      <ul className='flex flex-wrap justify-center gap w[200px]'></ul>
       {data.map((ele)=> {
         return (
-          <li>{ele.title},{ele.id}</li>
+          <li className='border '>{ele.title},{ele.id}</li>
         )
       })}
     
