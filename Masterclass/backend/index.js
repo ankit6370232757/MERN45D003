@@ -3,10 +3,11 @@ const env = require("dotenv");
 const DBconnect = require("./config/db");
 const routes = require("./routes/allRoutes")
 const cookieParser = require("cookie-parser")
-
+const cors = require("cors")
 const app = express();
 env.config();
 DBconnect();
+app.use(cors({ origin: "http://localhost:5173" }))
 app.use(express.json());
 app.use(cookieParser())
 
